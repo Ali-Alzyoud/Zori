@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C13BC4EE1A497B7D0074B7F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C13BC4ED1A497B7D0074B7F8 /* main.m */; };
+		C13BC4F11A497B7D0074B7F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C13BC4F01A497B7D0074B7F8 /* AppDelegate.m */; };
+		C13BC4F41A497B7D0074B7F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C13BC4F31A497B7D0074B7F8 /* ViewController.m */; };
+		C13BC4F71A497B7D0074B7F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C13BC4F51A497B7D0074B7F8 /* Main.storyboard */; };
+		C13BC4F91A497B7D0074B7F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C13BC4F81A497B7D0074B7F8 /* Images.xcassets */; };
+		C13BC4FC1A497B7D0074B7F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C13BC4FA1A497B7D0074B7F8 /* LaunchScreen.xib */; };
+		C13BC5081A497B7D0074B7F8 /* ZoriTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C13BC5071A497B7D0074B7F8 /* ZoriTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C13BC5021A497B7D0074B7F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C13BC4E01A497B7C0074B7F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C13BC4E71A497B7C0074B7F8;
+			remoteInfo = Zori;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C13BC4E81A497B7D0074B7F8 /* Zori.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zori.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C13BC4EC1A497B7D0074B7F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C13BC4ED1A497B7D0074B7F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C13BC4EF1A497B7D0074B7F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C13BC4F01A497B7D0074B7F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C13BC4F21A497B7D0074B7F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C13BC4F31A497B7D0074B7F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C13BC4F61A497B7D0074B7F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C13BC4F81A497B7D0074B7F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C13BC4FB1A497B7D0074B7F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C13BC5011A497B7D0074B7F8 /* ZoriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C13BC5061A497B7D0074B7F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C13BC5071A497B7D0074B7F8 /* ZoriTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoriTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C13BC4E51A497B7C0074B7F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C13BC4FE1A497B7D0074B7F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C13BC4DF1A497B7C0074B7F8 = {
+			isa = PBXGroup;
+			children = (
+				C13BC4EA1A497B7D0074B7F8 /* Zori */,
+				C13BC5041A497B7D0074B7F8 /* ZoriTests */,
+				C13BC4E91A497B7D0074B7F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C13BC4E91A497B7D0074B7F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C13BC4E81A497B7D0074B7F8 /* Zori.app */,
+				C13BC5011A497B7D0074B7F8 /* ZoriTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C13BC4EA1A497B7D0074B7F8 /* Zori */ = {
+			isa = PBXGroup;
+			children = (
+				C13BC4EF1A497B7D0074B7F8 /* AppDelegate.h */,
+				C13BC4F01A497B7D0074B7F8 /* AppDelegate.m */,
+				C13BC4F21A497B7D0074B7F8 /* ViewController.h */,
+				C13BC4F31A497B7D0074B7F8 /* ViewController.m */,
+				C13BC4F51A497B7D0074B7F8 /* Main.storyboard */,
+				C13BC4F81A497B7D0074B7F8 /* Images.xcassets */,
+				C13BC4FA1A497B7D0074B7F8 /* LaunchScreen.xib */,
+				C13BC4EB1A497B7D0074B7F8 /* Supporting Files */,
+			);
+			path = Zori;
+			sourceTree = "<group>";
+		};
+		C13BC4EB1A497B7D0074B7F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C13BC4EC1A497B7D0074B7F8 /* Info.plist */,
+				C13BC4ED1A497B7D0074B7F8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C13BC5041A497B7D0074B7F8 /* ZoriTests */ = {
+			isa = PBXGroup;
+			children = (
+				C13BC5071A497B7D0074B7F8 /* ZoriTests.m */,
+				C13BC5051A497B7D0074B7F8 /* Supporting Files */,
+			);
+			path = ZoriTests;
+			sourceTree = "<group>";
+		};
+		C13BC5051A497B7D0074B7F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C13BC5061A497B7D0074B7F8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C13BC4E71A497B7C0074B7F8 /* Zori */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C13BC50B1A497B7D0074B7F8 /* Build configuration list for PBXNativeTarget "Zori" */;
+			buildPhases = (
+				C13BC4E41A497B7C0074B7F8 /* Sources */,
+				C13BC4E51A497B7C0074B7F8 /* Frameworks */,
+				C13BC4E61A497B7C0074B7F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zori;
+			productName = Zori;
+			productReference = C13BC4E81A497B7D0074B7F8 /* Zori.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C13BC5001A497B7D0074B7F8 /* ZoriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C13BC50E1A497B7D0074B7F8 /* Build configuration list for PBXNativeTarget "ZoriTests" */;
+			buildPhases = (
+				C13BC4FD1A497B7D0074B7F8 /* Sources */,
+				C13BC4FE1A497B7D0074B7F8 /* Frameworks */,
+				C13BC4FF1A497B7D0074B7F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C13BC5031A497B7D0074B7F8 /* PBXTargetDependency */,
+			);
+			name = ZoriTests;
+			productName = ZoriTests;
+			productReference = C13BC5011A497B7D0074B7F8 /* ZoriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C13BC4E01A497B7C0074B7F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ProjectX;
+				TargetAttributes = {
+					C13BC4E71A497B7C0074B7F8 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C13BC5001A497B7D0074B7F8 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C13BC4E71A497B7C0074B7F8;
+					};
+				};
+			};
+			buildConfigurationList = C13BC4E31A497B7C0074B7F8 /* Build configuration list for PBXProject "Zori" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C13BC4DF1A497B7C0074B7F8;
+			productRefGroup = C13BC4E91A497B7D0074B7F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C13BC4E71A497B7C0074B7F8 /* Zori */,
+				C13BC5001A497B7D0074B7F8 /* ZoriTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C13BC4E61A497B7C0074B7F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13BC4F71A497B7D0074B7F8 /* Main.storyboard in Resources */,
+				C13BC4FC1A497B7D0074B7F8 /* LaunchScreen.xib in Resources */,
+				C13BC4F91A497B7D0074B7F8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C13BC4FF1A497B7D0074B7F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C13BC4E41A497B7C0074B7F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13BC4F41A497B7D0074B7F8 /* ViewController.m in Sources */,
+				C13BC4F11A497B7D0074B7F8 /* AppDelegate.m in Sources */,
+				C13BC4EE1A497B7D0074B7F8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C13BC4FD1A497B7D0074B7F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13BC5081A497B7D0074B7F8 /* ZoriTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C13BC5031A497B7D0074B7F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C13BC4E71A497B7C0074B7F8 /* Zori */;
+			targetProxy = C13BC5021A497B7D0074B7F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C13BC4F51A497B7D0074B7F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C13BC4F61A497B7D0074B7F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C13BC4FA1A497B7D0074B7F8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C13BC4FB1A497B7D0074B7F8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C13BC5091A497B7D0074B7F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C13BC50A1A497B7D0074B7F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C13BC50C1A497B7D0074B7F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Zori/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C13BC50D1A497B7D0074B7F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Zori/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C13BC50F1A497B7D0074B7F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZoriTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zori.app/Zori";
+			};
+			name = Debug;
+		};
+		C13BC5101A497B7D0074B7F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZoriTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zori.app/Zori";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C13BC4E31A497B7C0074B7F8 /* Build configuration list for PBXProject "Zori" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C13BC5091A497B7D0074B7F8 /* Debug */,
+				C13BC50A1A497B7D0074B7F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C13BC50B1A497B7D0074B7F8 /* Build configuration list for PBXNativeTarget "Zori" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C13BC50C1A497B7D0074B7F8 /* Debug */,
+				C13BC50D1A497B7D0074B7F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C13BC50E1A497B7D0074B7F8 /* Build configuration list for PBXNativeTarget "ZoriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C13BC50F1A497B7D0074B7F8 /* Debug */,
+				C13BC5101A497B7D0074B7F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C13BC4E01A497B7C0074B7F8 /* Project object */;
+}
